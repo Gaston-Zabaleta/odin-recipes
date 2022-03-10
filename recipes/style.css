@@ -1,6 +1,7 @@
 .read,
 .unread {
     text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .unread {
@@ -22,10 +23,13 @@ h4 {
 
 img {
     width: 300px;
+    height: auto;
 }
 
-p,
-ul,
-ol {
+.this {
     text-align: left;
+}
+
+.pref {
+    text-align: start;
 }
